@@ -46,7 +46,7 @@ function App() {
       <Toaster />
       <NavBar>
         <Search query={query} setQuery={setQuery} />
-        <SearchResult  numOfResult={characters.length} />
+        <SearchResult numOfResult={characters.length} />
         <Favourites
           favourites={favourites}
           onDeleteFavourite={handleDeleteFavourite}
