@@ -15,6 +15,7 @@ function App() {
     "https://rickandmortyapi.com/api/character/?name",
     query
   );
+  
   const [favourites, setFavourites] = useLocalStorage("FAVOURITES", []);
 
   useEffect(() => {
