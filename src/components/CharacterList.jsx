@@ -14,6 +14,7 @@ function CharacterList({
         <Loader />
       </div>
     );
+    
   return (
     <div className="characters-list">
       {characters.map((item) => (
