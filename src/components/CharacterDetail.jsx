@@ -103,7 +103,6 @@ function CharacterSubInfo({ character, isAddToFavourite, onAddFavourite }) {
 }
 
 function EpisodeList({ episodes }) {
-  // true => earliest => asc
   const [sortBy, setSortby] = useState(true);
 
   let sortedEpisodes;
