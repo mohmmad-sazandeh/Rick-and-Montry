@@ -56,4 +56,4 @@ export function Favourites({ favourites, onDeleteFavourite }) {
       </button>
     </>
   );
-}
+} 
