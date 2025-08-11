@@ -8,4 +8,4 @@ export default function useLocalStorage(key, initialState) {
     localStorage.setItem(value, JSON.stringify(value));
   }, [value]);
   return [value, setValue];
-}
+} 
