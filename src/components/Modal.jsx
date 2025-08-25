@@ -18,5 +18,5 @@ function Modal({ open, onOpen, title, children }) {
     </div>
   );
 }
-
+ 
 export default Modal;
